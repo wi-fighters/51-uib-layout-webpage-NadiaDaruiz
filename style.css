@@ -5,6 +5,17 @@
     list-style: none;   
 }    
 
+.container {
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.pages-container {
+    display: flex;
+}
 
 
 
