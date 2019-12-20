@@ -15,7 +15,7 @@
 }
 
 main {
-    flex-basis: 50rem;  
+    flex-basis: 55rem;  
     font-family: 'Arapey', serif;
     font-size: 1.1rem;
 }
@@ -26,13 +26,14 @@ main {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    padding: 30px 5px;
-    margin: 60px 15px;
+    padding: 30px 0px;
+    margin: 60px 0px;
 }
 
 header {
     font-family: 'Open Sans', sans-serif;
 }
+
 .pages-container {
     display: flex;
     flex-flow: column wrap;
@@ -49,6 +50,10 @@ h1 {
     font-size: 2rem;
 }
 
+li h2 {
+    text-decoration: underline;
+}
+
 
 .nav-container li {
     line-height: 2rem;
@@ -59,8 +64,14 @@ h1 {
 }
 
 article {
-    box-shadow: -10px -8px 14px -4px rgba(0,0,0,0.75);
+    box-shadow: -9px 6px 18px 0px rgba(0,0,0,0.75); 
 }
+
+section {
+    padding: 2px 5px;
+    margin: 2px 15px;
+}
+
 
 
 
